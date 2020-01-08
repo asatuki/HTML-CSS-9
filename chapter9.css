@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+main {
+	width: 960px;
+	margin: 100px auto;
+}
+
+.introduce-box {
+	float: left;
+	width: 318px;
+	height: 369px;
+	margin-right: 30px;
+	padding: 25px;
+	position: relative;
+	border: 1px solid #000000;
+}
+
+.introduce-box {
+	margin-right: 0;
+}
+
+.introduce-img1 {
+	height: 150px;
+	background-image: url(Osaka.jpg);
+	background-size: 100% 100%;
+	background-position: bottom;
+}
+
+.introduce-img2 {
+	height: 150px;
+	background-image: url(Tokyo.jpg);
+	background-size: 100% 100%;
+	background-position: bottom;
+}
+
+.introduce-img3 {
+	height: 150px;
+	background-image: url(Kyoto.jpg);
+	background-size: 100% 100%;
+	background-position: bottom;
+}
+
+.introduce-num {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: orange;
+	color: #1e90ff;
+	padding: 3px;
+}
+
+.title {
+	margin: 15px 0 5px;
+}
